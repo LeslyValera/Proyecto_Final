@@ -60,6 +60,20 @@ body {
     cursor: pointer;
 }
 
+.product-detail {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product-content {
+    overflow: auto; /* Asegura que el contenedor se expanda para incluir elementos flotantes */
+}
+
+.product-image {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
 .color-t {
     color: rgb(255, 152, 125);
 }
@@ -70,6 +84,8 @@ body {
     height: 70px;
     color: #95304C;
 }
+
+
 
 .barra-busqueda {
     width: 300px;

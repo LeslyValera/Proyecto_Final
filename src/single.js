@@ -8,8 +8,21 @@ const Single = () => {
     return (<>
         <h1>{makeup.name}</h1>
         <hr></hr>
-        <img src={makeup.picture}></img>
-        <p>{makeup.description}</p>
+        <img 
+                    src={makeup.picture} 
+                    alt={makeup.name} 
+                    className="product-image"
+                    style={{
+                        width: '150%',
+                        maxWidth: '600px',
+                        height: 'auto',
+                        objectFit: 'cover',
+                        float: 'left',
+                        marginRight: '20px',
+                        marginBottom: '10px'
+                    }}
+                />
+                <p>{makeup.description}</p>
     </>);
 }
 
