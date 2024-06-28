@@ -1,4 +1,3 @@
-//import { Link } from "react-router-dom";
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -6,18 +5,28 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { useNavigate } from 'react-router-dom';  // Se agregó para usar el useNavigate
 
 const feather = require('feather-icons');
 
 function Header() {
+  const navigate = useNavigate();  // Esta línea se agregó para inicializar useNavigate
+
   setTimeout(() => {
     feather.replace();
   }, 1000);
 
+  const handleNavigation = (categoria) => {
+    navigate(`/catalogo/${categoria}`);
+  }
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid className='barra-navegacion'>
-        <Navbar.Brand href="#InicioPagina" style={{ color: '#fff', fontFamily: 'Arial', fontWeight: 'bold', fontSize: '24px' }}>Concept Store</Navbar.Brand>
+        <Navbar.Brand onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
+          <img src="https://i.imgur.com/sDzEkiR.png"  style={{ height: '80px', marginRight: '5px' }} fluid />
+          <span style={{ color: '#fff', fontFamily: 'Arial', fontWeight: 'bold', fontSize: '20px' }}></span>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -25,28 +34,26 @@ function Header() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#Inicio" style={{ color: '#fff', fontFamily: 'Arial'}}><i data-feather="home"></i> Inicio</Nav.Link>
-            <NavDropdown title={<span className='text-navbar-1' style={{ color: '#fff', fontFamily: 'Arial'}}> Maquillaje</span>} id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#Ojos" className='text-navbar-1'>
+            <Nav.Link onClick={() => navigate('/')} style={{ color: '#fff', fontFamily: 'Arial', cursor: 'pointer' }}><i data-feather="home"></i> Inicio</Nav.Link>
+            {            /* Se actualizó el uso de navigate en el enlace "Inicio" onClick={() => navigate('/')} */}
+
+            <NavDropdown title={<span className='text-navbar-1' style={{ color: '#fff', fontFamily: 'Arial' }}> Maquillaje</span>} id="navbarScrollingDropdown">
+              <NavDropdown.Item onClick={() => handleNavigation('Ojos')} className='text-navbar-1'>
                 Ojos
               </NavDropdown.Item>
-              <NavDropdown.Item href="#Labios" className='text-navbar-1'>
+              <NavDropdown.Item onClick={() => handleNavigation('Labios')} className='text-navbar-1'>
                 Labios
               </NavDropdown.Item>
-              <NavDropdown.Item href="#Rostro" className='text-navbar-1'>
+              <NavDropdown.Item onClick={() => handleNavigation('Rostro')} className='text-navbar-1'>
                 Rostro
               </NavDropdown.Item>
-              <NavDropdown.Item href="#Cejas" className='text-navbar-1'>
+              <NavDropdown.Item onClick={() => handleNavigation('Cejas')} className='text-navbar-1'>
                 Cejas
               </NavDropdown.Item>
-             {/*} <NavDropdown.Divider />
-              <NavDropdown.Item href="#Otros" className='text-navbar-1'>
-                Otros
-              </NavDropdown.Item>*/}
             </NavDropdown>
 
-            {/* Menu para skincare */}
-            <NavDropdown title={<span className='text-navbar-1' style={{ color: '#fff', fontFamily: 'Arial'}}>Skincare</span>} id="navbarScrollingDropdown">
+            {/* Menú para skincare */}
+            <NavDropdown title={<span className='text-navbar-1' style={{ color: '#fff', fontFamily: 'Arial' }}>Skincare</span>} id="navbarScrollingDropdown">
               <NavDropdown.Item href="#Productos/Hidrantantes" className='text-navbar-1'>
                 Limpieza facial
               </NavDropdown.Item>
@@ -59,10 +66,10 @@ function Header() {
               <NavDropdown.Item href="#Productos/Limpieza" className='text-navbar-1'>
                 Tratamientos
               </NavDropdown.Item>
-            </NavDropdown>         
+            </NavDropdown>
 
-            {/* Menu para Cuidado capilar */}
-            <NavDropdown title={<span className='text-navbar-1' style={{ color: '#fff', fontFamily: 'Arial'}}>Cuidado Capilar</span>} id="navbarScrollingDropdown">
+            {/* Menú para Cuidado capilar */}
+            <NavDropdown title={<span className='text-navbar-1' style={{ color: '#fff', fontFamily: 'Arial' }}>Cuidado Capilar</span>} id="navbarScrollingDropdown">
               <NavDropdown.Item href="#Productos/Hidrantantes" className='text-navbar-1'>
                 Limpieza Capilar
               </NavDropdown.Item>
@@ -77,8 +84,8 @@ function Header() {
               </NavDropdown.Item>
             </NavDropdown>
 
-            {/* Menu para Perfumes */}
-            <Nav.Link href="#Ayuda" style={{ color: '#fff', fontFamily: 'Arial'}}>Perfumes</Nav.Link>
+            {/* Menú para Perfumes */}
+            <Nav.Link href="#Ayuda" style={{ color: '#fff', fontFamily: 'Arial' }}>Perfumes</Nav.Link>
 
           </Nav>
 
@@ -89,28 +96,25 @@ function Header() {
               className="me-1 barra-busqueda"
               aria-label="¿Que deseas buscar?"
             />
-            {/* BOTON BUSCAR */}
             <Button className='search-button'><i data-feather="search"></i></Button>
           </Form>
 
-          {/* Carrito de compras */}
           <Nav className='carrito-compras'>
-            <NavDropdown title={<span><i data-feather="shopping-cart" style={{ color: '#fff'}}></i></span>} align="end">
+            <NavDropdown title={<span><i data-feather="shopping-cart" style={{ color: '#fff' }}></i></span>} align="end">
               <NavDropdown.Item>
                 <div>
                   <p>CARRITO DE COMPRAS</p>
                   <hr />
                 </div>
-                 <div className='container-button'>
+                <div className='container-button'>
                   <Button variant="info" type="Submit" className='cart-button'>Ir a mi carrito</Button>
                 </div>
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
 
-          {/* Perfil del usuario */}
           <Nav className="ml-auto">
-            <NavDropdown title={<span className='text-navbar-1'><i data-feather="user" style={{ color: '#fff'}}></i></span>} align="end">
+            <NavDropdown title={<span className='text-navbar-1'><i data-feather="user" style={{ color: '#fff' }}></i></span>} align="end">
               <NavDropdown.Item disabled>MI CUENTA</NavDropdown.Item>
               <NavDropdown.Item href="#perfil">Perfil</NavDropdown.Item>
               <NavDropdown.Item href="#pedidos">Mis Pedidos</NavDropdown.Item>
@@ -125,3 +129,4 @@ function Header() {
 }
 
 export default Header;
+

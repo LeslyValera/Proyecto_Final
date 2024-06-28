@@ -1,226 +1,88 @@
 [
     {
-        "name": "Gato 1",
-        "slug": "gato-1",
-        "category": "plateado",
+        "name": "Makeup 1",
+        "slug": "makeup-1",
+        "category": "Ojos",
         "description": "Descripcion Gato 1",
-        "picture": "https://s1.eestatic.com/2020/05/18/como/gatos-mascotas-trucos_490961518_152142875_1706x960.jpg"
+        "picture": "https://i.pinimg.com/564x/e3/ce/e0/e3cee0d291de37bb773eba0958c9a165.jpg"
     },
     {
-        "name": "Gato 2",
-        "slug": "gato-2",
-        "category": "rubio",
+        "name": "Makeup 2",
+        "slug": "makeup-2",
+        "category": "Labios",
         "description": "Descripcion Gato 2",
         "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
     },
     {
-        "name": "Gato 3",
-        "slug": "gato-3",
-        "category": "siames",
+        "name": "Makeup 3",
+        "slug": "makeup-3",
+        "category": "Rostro",
         "description": "Descripcion Gato 3",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
+        "picture": "https://i.pinimg.com/564x/47/b2/9f/47b29fa15444bed648f63562c61606f2.jpg"
     },
+
     {
-        "name": "Gato 4",
-        "slug": "gato-4",
-        "category": "negro",
-        "description": "Rufus",
-        "picture": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQmz8-kgpWHN5SPFVyaBnKUsK918Y7aidkoV2chBsWCOMAOcGLH8E59uq8ZWDqLJL9t"
-    },
-    {
-        "name": "Gato 1",
-        "slug": "gato-1",
-        "category": "plateado",
+        "name": "Makeup 1",
+        "slug": "makeup-1",
+        "category": "Ojos",
         "description": "Descripcion Gato 1",
-        "picture": "https://s1.eestatic.com/2020/05/18/como/gatos-mascotas-trucos_490961518_152142875_1706x960.jpg"
+        "picture": "https://i.pinimg.com/564x/e3/ce/e0/e3cee0d291de37bb773eba0958c9a165.jpg"
     },
     {
-        "name": "Gato 2",
-        "slug": "gato-2",
-        "category": "rubio",
+        "name": "Makeup 2",
+        "slug": "makeup-2",
+        "category": "Labios",
         "description": "Descripcion Gato 2",
         "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
     },
     {
-        "name": "Gato 3",
-        "slug": "gato-3",
-        "category": "siames",
+        "name": "Makeup 3",
+        "slug": "makeup-3",
+        "category": "Rostro",
         "description": "Descripcion Gato 3",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
+        "picture": "https://i.pinimg.com/564x/47/b2/9f/47b29fa15444bed648f63562c61606f2.jpg"
     },
     {
-        "name": "Gato 4",
-        "slug": "gato-4",
-        "category": "negro",
-        "description": "Rufus",
-        "picture": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQmz8-kgpWHN5SPFVyaBnKUsK918Y7aidkoV2chBsWCOMAOcGLH8E59uq8ZWDqLJL9t"
-    },
-    {
-        "name": "Gato 1",
-        "slug": "gato-1",
-        "category": "plateado",
+        "name": "Makeup 1",
+        "slug": "makeup-1",
+        "category": "ojos",
         "description": "Descripcion Gato 1",
-        "picture": "https://s1.eestatic.com/2020/05/18/como/gatos-mascotas-trucos_490961518_152142875_1706x960.jpg"
+        "picture": "https://i.pinimg.com/564x/e3/ce/e0/e3cee0d291de37bb773eba0958c9a165.jpg"
     },
     {
-        "name": "Gato 2",
-        "slug": "gato-2",
-        "category": "rubio",
+        "name": "Makeup 2",
+        "slug": "makeup-2",
+        "category": "labios",
         "description": "Descripcion Gato 2",
         "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
     },
     {
-        "name": "Gato 3",
-        "slug": "gato-3",
-        "category": "siames",
+        "name": "Makeup 3",
+        "slug": "makeup-3",
+        "category": "rostro",
         "description": "Descripcion Gato 3",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
+        "picture": "https://i.pinimg.com/564x/47/b2/9f/47b29fa15444bed648f63562c61606f2.jpg"
     },
     {
-        "name": "Gato 4",
-        "slug": "gato-4",
-        "category": "negro",
-        "description": "Rufus",
-        "picture": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQmz8-kgpWHN5SPFVyaBnKUsK918Y7aidkoV2chBsWCOMAOcGLH8E59uq8ZWDqLJL9t"
-    },
-    {
-        "name": "Gato 1",
-        "slug": "gato-1",
-        "category": "plateado",
+        "name": "Makeup 1",
+        "slug": "makeup-1",
+        "category": "ojos",
         "description": "Descripcion Gato 1",
-        "picture": "https://s1.eestatic.com/2020/05/18/como/gatos-mascotas-trucos_490961518_152142875_1706x960.jpg"
+        "picture": "https://i.pinimg.com/564x/e3/ce/e0/e3cee0d291de37bb773eba0958c9a165.jpg"
     },
     {
-        "name": "Gato 2",
-        "slug": "gato-2",
-        "category": "rubio",
+        "name": "Makeup 2",
+        "slug": "makeup-2",
+        "category": "labios",
         "description": "Descripcion Gato 2",
         "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
     },
     {
-        "name": "Gato 3",
-        "slug": "gato-3",
-        "category": "siames",
+        "name": "Makeup 3",
+        "slug": "makeup-3",
+        "category": "rostro",
         "description": "Descripcion Gato 3",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
-    },
-    {
-        "name": "Gato 4",
-        "slug": "gato-4",
-        "category": "negro",
-        "description": "Rufus",
-        "picture": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQmz8-kgpWHN5SPFVyaBnKUsK918Y7aidkoV2chBsWCOMAOcGLH8E59uq8ZWDqLJL9t"
-    },
-    {
-        "name": "Gato 1",
-        "slug": "gato-1",
-        "category": "plateado",
-        "description": "Descripcion Gato 1",
-        "picture": "https://s1.eestatic.com/2020/05/18/como/gatos-mascotas-trucos_490961518_152142875_1706x960.jpg"
-    },
-    {
-        "name": "Gato 2",
-        "slug": "gato-2",
-        "category": "rubio",
-        "description": "Descripcion Gato 2",
-        "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
-    },
-    {
-        "name": "Gato 3",
-        "slug": "gato-3",
-        "category": "siames",
-        "description": "Descripcion Gato 3",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
-    },
-    {
-        "name": "Gato 4",
-        "slug": "gato-4",
-        "category": "negro",
-        "description": "Rufus",
-        "picture": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQmz8-kgpWHN5SPFVyaBnKUsK918Y7aidkoV2chBsWCOMAOcGLH8E59uq8ZWDqLJL9t"
-    },
-    {
-        "name": "Gato 1",
-        "slug": "gato-1",
-        "category": "plateado",
-        "description": "Descripcion Gato 1",
-        "picture": "https://s1.eestatic.com/2020/05/18/como/gatos-mascotas-trucos_490961518_152142875_1706x960.jpg"
-    },
-    {
-        "name": "Gato 2",
-        "slug": "gato-2",
-        "category": "rubio",
-        "description": "Descripcion Gato 2",
-        "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
-    },
-    {
-        "name": "Gato 3",
-        "slug": "gato-3",
-        "category": "siames",
-        "description": "Descripcion Gato 3",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
-    },
-    {
-        "name": "Gato 4",
-        "slug": "gato-4",
-        "category": "negro",
-        "description": "Rufus",
-        "picture": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQmz8-kgpWHN5SPFVyaBnKUsK918Y7aidkoV2chBsWCOMAOcGLH8E59uq8ZWDqLJL9t"
-    },
-    {
-        "name": "Gato 1",
-        "slug": "gato-1",
-        "category": "plateado",
-        "description": "Descripcion Gato 1",
-        "picture": "https://s1.eestatic.com/2020/05/18/como/gatos-mascotas-trucos_490961518_152142875_1706x960.jpg"
-    },
-    {
-        "name": "Gato 2",
-        "slug": "gato-2",
-        "category": "rubio",
-        "description": "Descripcion Gato 2",
-        "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
-    },
-    {
-        "name": "Gato 3",
-        "slug": "gato-3",
-        "category": "siames",
-        "description": "Descripcion Gato 3",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
-    },
-    {
-        "name": "Gato 4",
-        "slug": "gato-4",
-        "category": "negro",
-        "description": "Rufus",
-        "picture": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQmz8-kgpWHN5SPFVyaBnKUsK918Y7aidkoV2chBsWCOMAOcGLH8E59uq8ZWDqLJL9t"
-    },
-    {
-        "name": "Gato 1",
-        "slug": "gato-1",
-        "category": "plateado",
-        "description": "Descripcion Gato 1",
-        "picture": "https://s1.eestatic.com/2020/05/18/como/gatos-mascotas-trucos_490961518_152142875_1706x960.jpg"
-    },
-    {
-        "name": "Gato 2",
-        "slug": "gato-2",
-        "category": "rubio",
-        "description": "Descripcion Gato 2",
-        "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
-    },
-    {
-        "name": "Gato 3",
-        "slug": "gato-3",
-        "category": "siames",
-        "description": "Descripcion Gato 3",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
-    },
-    {
-        "name": "Gato 4",
-        "slug": "gato-4",
-        "category": "negro",
-        "description": "Rufus",
-        "picture": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQmz8-kgpWHN5SPFVyaBnKUsK918Y7aidkoV2chBsWCOMAOcGLH8E59uq8ZWDqLJL9t"
+        "picture": "https://i.pinimg.com/564x/47/b2/9f/47b29fa15444bed648f63562c61606f2.jpg"
     }
+
 ]

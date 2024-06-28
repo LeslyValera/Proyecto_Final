@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Single from './single';
 import Basic from './layout/basic';
+import Catalogo from './pages/catalogo/catalogo';
 
 const feather = require("feather-icons");
 
@@ -27,17 +28,31 @@ setTimeout(() => {
                 element: <>
                 
                     <div className="">
-                        <Main></Main>
+                        <Main></Main> {/*Asegurar que la ruta raíz apunte al componente Main*/}
                     </div>
                     {/*<div className="col-md-4">
                         <Aside></Aside>
                     </div>*/}
                 </>
             },
+
             {
                 path: "detalle/:slug",
                 element: <Single/>,
             },
+
+            /*creamos rutas para cada categoría*/
+            {
+                path: "catalogo",
+                element: <Catalogo />,
+            },
+
+
+            {
+                path: "catalogo/:categoria",
+                element: <Catalogo />,
+            },
+            
         ],
     },
     
