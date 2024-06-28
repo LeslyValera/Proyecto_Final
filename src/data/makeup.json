@@ -1,0 +1,24 @@
+[
+    {
+    "name": "makeup1",
+    "slug": "Makeup-1",
+    "description": "Colección Exclusiva de Maquillaje",
+    "picture" : "https://previews.123rf.com/images/studioidmi/studioidmi2005/studioidmi200500269/147209798-conjunto-de-cosméticos-decorativos-sobre-un-fondo-de-color.jpg"
+  },
+
+  {
+    "name": "makeup2",
+    "slug": "Makeup-2",
+    "description":"Explora tu Potencial de Belleza",
+    "picture" :"https://sersaludables.org/wp-content/uploads/2019/07/I_0112.jpg"
+
+  },
+
+  {
+    "name": "makeup3",
+    "slog": "Makeup-3",
+    "description":"Belleza sin Límites",
+    "picture" : "https://www.eljardinrojo.com/wp-content/uploads/2020/06/Las-Mejores-Marcas-de-Maquillaje.jpg"
+
+  }
+]
