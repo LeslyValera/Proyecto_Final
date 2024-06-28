@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Container fluid className='barra-navegacion'>
+      <Container fluid className='barra-navegacion col-md-12'>
         <Navbar.Brand href="#InicioPagina" style={{ color: '#fff', fontFamily: 'Arial', fontWeight: 'bold', fontSize: '24px' }}>Concept Store</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -88,9 +88,12 @@ function Header() {
               placeholder="¿Que deseas buscar?"
               className="me-1 barra-busqueda"
               aria-label="¿Que deseas buscar?"
+              
             />
-            {/* BOTON BUSCAR */}
-            <Button className='search-button'><i data-feather="search"></i></Button>
+            {/* BOTON BUSCAR 
+            <Button className='search-button'><i data-feather="search"></i></Button> 
+            */}
+            
           </Form>
 
           {/* Carrito de compras */}
