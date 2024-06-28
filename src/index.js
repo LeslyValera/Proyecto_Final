@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
-import Aside from './aside';
 import Main from './main';
 //import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
@@ -26,12 +25,13 @@ setTimeout(() => {
             {
                 path:'/',
                 element: <>
-                    <div className="col-md-8">
+                
+                    <div className="">
                         <Main></Main>
                     </div>
-                    <div className="col-md-4">
+                    {/*<div className="col-md-4">
                         <Aside></Aside>
-                    </div>
+                    </div>*/}
                 </>
             },
             {

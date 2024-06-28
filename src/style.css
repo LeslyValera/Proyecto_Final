@@ -1,19 +1,20 @@
-
-body{
+body {
     background-color: rgb(255, 255, 255);
-  }
-  
-  .essence-brand { /*ALINEAR EL CONTENER DEL TEXTO*/
-      text-align: center;
-      color: rgba(225, 74, 99, 0.848);
-    }
-  
-    .container-center {
-      margin: 0 auto; /* Esto centra horizontalmente el contenedor */
+}
+
+.essence-brand {
+    /*ALINEAR EL CONTENER DEL TEXTO*/
+    text-align: center;
+    color: rgba(225, 74, 99, 0.848);
+}
+
+.container-center {
+    margin: 0 auto;
+    /* Esto centra horizontalmente el contenedor */
     max-width: 400px;
-    }
-  
-    /* estilos para el formulario */
+}
+
+/*estilos para el formulario 
     .my-custom-form {
       background-color: #F2F2F2;
       padding: 30px;
@@ -23,7 +24,7 @@ body{
       max-width: 600px; 
     }
     
-    .form-label { /*etiqutas (texto) del formulario*/
+    .form-label { /*etiqutas (texto) del formulario
       color: #333;
       font-weight: bold;
       margin-bottom: 10px;
@@ -37,7 +38,7 @@ body{
       border-radius: 10px;
     }
   
-    .button-form:hover{ /*colocarle color-scroll*/
+    .button-form:hover{ /*colocarle color-scroll
       background-color: #307595;
     }
   
@@ -46,136 +47,163 @@ body{
       font-size: 12px;
       margin-bottom: 10px;
     }
-     
-    
-    
-    .btn-primary {
-      background-color: #95304C;
-      border-color: #95304C;
-      padding: 10px 20px;
-      color: #fff;
-      font-weight: bold;
-      border-radius: 10px;
-      cursor: pointer;
-    }
-  
-     .color-t{
-      color: rgb(255, 152, 125);
-    }
-  
-    /*barra de navegacion*/
-    .barra-navegacion{
-      background-color: #9E3B42;
-      padding: 0%;
-      width: 1500px;
-      height: 70px;
-      color: #95304C;
-    }
-  
-    .barra-busqueda{
-        width: 300px; 
-        height: 40px; 
-    }
-  
-    .search-button{
-      background-color: #95304C;  
-      border-color: #95304C;
-      color: #ffffff;
-      border-radius: 10px;
-    }
-  
-    .search-button:hover{
-      background-color: #307595;
-    }
-    
-    .custom-search-button:hover { /* Color de fondo al pasar el cursor por el boton*/
-      background-color: #89CCB9; 
-      color: #ffffff; 
-  }
-  
-    .text-navbar-1{
-      color: #9E3B42;
-    }
-    
-    .dropdown-toggle::after {
-      color: #ffffff; /* Cambia el color del triángulo */
-      border-top-color: #ffffff; /* Cambia el color del borde*/
-    }
-  
-    .carrito-compras { /*CARRITO DE COMPRAS*/
-      margin-left: 20px; /* Margen a la izquierda */
-      margin-right: 20px; /* Margen a la derecha */
-      margin-top: 20px; /* Margen superior */
-      margin-bottom: 20px; /* Margen inferior */
-      
-    }
-    
-    .cart-text-conteiner{
-      background-color: #ebeaea;
-      border-radius: 05px;
-      }
-    
-    .cart-button{
-      background-color: #307595;
-      border-top-color:#307595 ;
-      color: #f0f0f0;
-    }
-  
-    .container-button{
-      text-align: center;
-    }
-    .center-image{
-      justify-content: center;
-    }
-  
-   
-    /*PIE DE PAGINA*/
-    .pie-pagina{
-      background-color: #212121;
-      color:#f0f0f0;
-  
-    }
-  
-      .color-letras{
-        font-family:'Trebuchet MS';
-        font-size: small;
-        letter-spacing:1px
-      }
-  
-      .enlaces-c2{
-        text-decoration: none; /* Elimina el subrayado */
-        color:#F2F2F2;
-      }
-  
-      .enlaces-c2:hover{
-        color:#48c4f9;
-      }
-  
-      /*LISTA DE PRODUCTOS-MAIN*/
-  
-  /* Estilo para la clase de tarjeta */
+     */
+
+
+.btn-primary {
+    background-color: #95304C;
+    border-color: #95304C;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.color-t {
+    color: rgb(255, 152, 125);
+}
+
+/*barra de navegacion*/
+.barra-navegacion {
+    background-color: #9E3B42;
+    padding: 0%;
+    width: 1500px;
+    height: 70px;
+    color: #95304C;
+}
+
+.barra-busqueda {
+    width: 300px;
+    height: 40px;
+}
+
+.search-button {
+    background-color: #95304C;
+    border-color: #95304C;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.search-button:hover {
+    background-color: #307595;
+}
+
+.custom-search-button:hover {
+    /* Color de fondo al pasar el cursor por el boton*/
+    background-color: #89CCB9;
+    color: #ffffff;
+}
+
+.text-navbar-1 {
+    color: #9E3B42;
+}
+
+.dropdown-toggle::after {
+    color: #ffffff;
+    /* Cambia el color del triángulo */
+    border-top-color: #ffffff;
+    /* Cambia el color del borde*/
+}
+
+.carrito-compras {
+    /*CARRITO DE COMPRAS*/
+    margin-left: 20px;
+    /* Margen a la izquierda */
+    margin-right: 20px;
+    /* Margen a la derecha */
+    margin-top: 20px;
+    /* Margen superior */
+    margin-bottom: 20px;
+    /* Margen inferior */
+
+}
+
+.cart-text-conteiner {
+    background-color: #ebeaea;
+    border-radius: 05px;
+}
+
+.cart-button {
+    background-color: #307595;
+    border-top-color: #307595;
+    color: #f0f0f0;
+}
+
+.container-button {
+    text-align: center;
+}
+
+.center-image {
+    justify-content: center;
+}
+
+
+/*PIE DE PAGINA*/
+.pie-pagina {
+    background-color: #212121;
+    color: #f0f0f0;
+
+}
+
+.color-letras {
+    font-family: 'Trebuchet MS';
+    font-size: small;
+    letter-spacing: 1px
+}
+
+.enlaces-c2 {
+    text-decoration: none;
+    /* Elimina el subrayado */
+    color: #F2F2F2;
+}
+
+.enlaces-c2:hover {
+    color: #48c4f9;
+}
+
+/*LISTA DE PRODUCTOS-MAIN*/
+
+/* Estilo para la clase de tarjeta 
       .card-style {
           margin-right: 15px;
           margin-bottom: 15px;
           background-color: #ffffff;
-          border-radius: 10px; /* Bordes redondeados */
-          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Con esto agregamos sombras */
-          transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega transiciones */
-      }
-  /* Aumenta el tamaño del elemento en un 5% al hacer hover */
-  /* La siguiente línea aplica un efecto de escala al elemento */
+          border-radius: 10px; /* Bordes redondeados 
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Con esto agregamos sombras 
+          transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega transiciones 
+      }*/
+/* Aumenta el tamaño del elemento en un 5% al hacer hover */
+/* La siguiente línea aplica un efecto de escala al elemento 
       .card-style:hover {
-        transform: scale(1.05); /*crea un efecto de zoom*/
-      }
+        transform: scale(1.05); /*crea un efecto de zoom
+      }*/
+
+.button-list {
+    background-color: #95304C;
+    border-color: #95304C;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    /*transicion */
+}
+
+.button-list:hover {
+    background-color: #307595;
+    border-color: #307595;
+}
+
+.carousel-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%; /* Ajusta el ancho máximo del carrusel */
+    padding-left: 10px; /* Márgen a la izquierda */
+    padding-right: 10px; /* Márgen a la derecha */
+  }
   
-      .button-list{
-        background-color: #95304C;
-        border-color: #95304C;
-        border-radius: 10px;
-        transition: background-color 0.3s ease, border-color 0.3s ease; /*transicion */
-      }
+
+
   
-      .button-list:hover{
-        background-color: #307595;
-        border-color: #307595;
-      }
+  
+
+
+
