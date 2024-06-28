@@ -137,7 +137,7 @@ const Main = () => {
       <div class="card-body">
         <h5 class="card-title">Iluminadores/ highlighter - Essence</h5>
         <p class="card-text">S/ 20.90 - 16g.</p>
-        <Button variant="primary">Añadir al carrito</Button>
+        <Button variant="primary"> Añadir al carrito</Button>
       </div>
     </div>
   </div>
