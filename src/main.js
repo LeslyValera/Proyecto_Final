@@ -145,7 +145,7 @@ const Main = () => {
     <div class="card">
       <img src="https://staticpe.natura.com/sites/default/files/styles/medium/public/products/124226_1_2.jpg?itok=l3pwbSXc" class="card-img-top" />
       <div class="card-body">
-        <h5 class="card-title">Humor Desodorante Corporal en spray</h5>
+        <h5 class="card-title">Humor Desodorante corporal en spray</h5>
         <p class="card-text">S/ 34.50 - 100ml.</p>
         <Button variant="primary">Añadir al carrito</Button>
       </div>
