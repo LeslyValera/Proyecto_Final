@@ -8,6 +8,7 @@ const Basic = () => {
         <StrictMode>
             <div className="d-flex flex-column min-vh-100">
                 <Header />
+                <br></br>
                 <main className="flex-grow-1">
                     <Outlet />
                 </main>
