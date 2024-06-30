@@ -45,7 +45,7 @@ const Adoptar = () => {
                             <p className="card-text">{element.description}</p>
                             <button onClick={(e) => {
                                 handleClick(element)
-                            }} className="btn btn-primary">Adoptame!</button>
+                            }} className="btn btn-primary">Añadir</button>
                         </div>
                     </div>
                 </div>

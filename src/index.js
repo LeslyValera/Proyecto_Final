@@ -11,6 +11,7 @@ import {
 import Single from './single';
 import Basic from './layout/basic';
 import Catalogo from './pages/catalogo/catalogo';
+import Carrito from './pages/carrito/carrito';
 
 const feather = require("feather-icons");
 
@@ -47,6 +48,17 @@ setTimeout(() => {
                 element: <Catalogo />,
             },
 
+            {
+                path: "/carrito",
+                element: <Basic />,
+                children: [
+                    {
+                        path: '',
+                        element: <Carrito />
+                    }
+                ],
+            },
+
 
             {
                 path: "catalogo/:categoria",
@@ -62,3 +74,4 @@ const root = createRoot(document.getElementById("root"));
 root.render(
     <RouterProvider router={router} />
 );
+

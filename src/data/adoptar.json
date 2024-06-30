@@ -3,22 +3,22 @@
         "name": "Makeup 1",
         "slug": "makeup-1",
         "category": "Ojos",
-        "description": "Descripcion Gato 1",
+        "description": "Descripcion Sombras",
         "picture": "https://i.pinimg.com/564x/e3/ce/e0/e3cee0d291de37bb773eba0958c9a165.jpg"
     },
     {
         "name": "Makeup 2",
         "slug": "makeup-2",
         "category": "Labios",
-        "description": "Descripcion Gato 2",
-        "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
+        "description": "Descripcion Labiales",
+        "picture": "https://minisope.vtexassets.com/arquivos/ids/261311/L-piz-labial-mate-color-me-11-brunette-Miniso-1-13553.jpg?v=638347594584800000"
     },
     {
         "name": "Makeup 3",
         "slug": "makeup-3",
         "category": "Rostro",
-        "description": "Descripcion Gato 3",
-        "picture": "https://i.pinimg.com/564x/47/b2/9f/47b29fa15444bed648f63562c61606f2.jpg"
+        "description": "Descripcion Rubor",
+        "picture": "https://oechsle.vteximg.com.br/arquivos/ids/1989389-1000-1000/934455.jpg?v=637492805697900000"
     },
 
     {
@@ -32,8 +32,8 @@
         "name": "Makeup 2",
         "slug": "makeup-2",
         "category": "Labios",
-        "description": "Descripcion Gato 2",
-        "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
+        "description": "Descripcion Labiales",
+        "picture": "https://minisope.vtexassets.com/arquivos/ids/261311/L-piz-labial-mate-color-me-11-brunette-Miniso-1-13553.jpg?v=638347594584800000"
     },
     {
         "name": "Makeup 3",
@@ -53,8 +53,8 @@
         "name": "Makeup 2",
         "slug": "makeup-2",
         "category": "labios",
-        "description": "Descripcion Gato 2",
-        "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
+        "description": "Descripcion Labiales",
+        "picture": "https://minisope.vtexassets.com/arquivos/ids/261311/L-piz-labial-mate-color-me-11-brunette-Miniso-1-13553.jpg?v=638347594584800000"
     },
     {
         "name": "Makeup 3",

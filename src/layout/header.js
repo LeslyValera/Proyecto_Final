@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { getCarrito } from "../store/local";
+import { useState } from "react";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useNavigate } from 'react-router-dom';  // Se agregó para usar el useNavigate
 
@@ -19,15 +21,22 @@ function Header() {
   const handleNavigation = (categoria) => {
     navigate(`/catalogo/${categoria}`);
   }
+  const [carrito, setCarrito] = useState([])
+
+  setInterval(() => {
+      setCarrito(getCarrito())
+  }, 1000);
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
+      
       <Container fluid className='barra-navegacion'>
         <Navbar.Brand onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
           <img src="https://i.imgur.com/sDzEkiR.png"  style={{ height: '80px', marginRight: '5px' }} fluid />
           <span style={{ color: '#fff', fontFamily: 'Arial', fontWeight: 'bold', fontSize: '20px' }}></span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
+        
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"

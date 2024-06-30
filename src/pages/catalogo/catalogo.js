@@ -124,7 +124,7 @@ const Catalogo = () => {
                                                     <line x1="15" y1="9" x2="15.01" y2="9"></line>
                                                 </svg>
                                                 <span className='ms-2'>
-                                                    Adoptame
+                                                    Añadir
                                                 </span>
                                             </button>
                                         </div>
