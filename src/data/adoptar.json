@@ -22,65 +22,65 @@
     },
 
     {
-        "name": "Makeup 1",
-        "slug": "makeup-1",
+        "name": "Makeup 4",
+        "slug": "makeup-4",
         "category": "Ojos",
         "description": "Descripcion Gato 1",
         "picture": "https://i.pinimg.com/564x/e3/ce/e0/e3cee0d291de37bb773eba0958c9a165.jpg"
     },
     {
-        "name": "Makeup 2",
-        "slug": "makeup-2",
+        "name": "Makeup 5",
+        "slug": "makeup-5",
         "category": "Labios",
         "description": "Descripcion Labiales",
         "picture": "https://minisope.vtexassets.com/arquivos/ids/261311/L-piz-labial-mate-color-me-11-brunette-Miniso-1-13553.jpg?v=638347594584800000"
     },
     {
-        "name": "Makeup 3",
-        "slug": "makeup-3",
+        "name": "Makeup 6",
+        "slug": "makeup-6",
         "category": "Rostro",
         "description": "Descripcion Gato 3",
         "picture": "https://i.pinimg.com/564x/47/b2/9f/47b29fa15444bed648f63562c61606f2.jpg"
     },
     {
-        "name": "Makeup 1",
-        "slug": "makeup-1",
-        "category": "ojos",
+        "name": "Makeup 7",
+        "slug": "makeup-7",
+        "category": "Ojos",
         "description": "Descripcion Gato 1",
         "picture": "https://i.pinimg.com/564x/e3/ce/e0/e3cee0d291de37bb773eba0958c9a165.jpg"
     },
     {
-        "name": "Makeup 2",
-        "slug": "makeup-2",
-        "category": "labios",
+        "name": "Makeup 8",
+        "slug": "makeup-8",
+        "category": "Labios",
         "description": "Descripcion Labiales",
         "picture": "https://minisope.vtexassets.com/arquivos/ids/261311/L-piz-labial-mate-color-me-11-brunette-Miniso-1-13553.jpg?v=638347594584800000"
     },
     {
-        "name": "Makeup 3",
-        "slug": "makeup-3",
-        "category": "rostro",
+        "name": "Makeup 9",
+        "slug": "makeup-9",
+        "category": "Rostro",
         "description": "Descripcion Gato 3",
         "picture": "https://i.pinimg.com/564x/47/b2/9f/47b29fa15444bed648f63562c61606f2.jpg"
     },
     {
-        "name": "Makeup 1",
-        "slug": "makeup-1",
-        "category": "ojos",
+        "name": "Makeup 10",
+        "slug": "makeup-10",
+        "category": "Ojos",
         "description": "Descripcion Gato 1",
         "picture": "https://i.pinimg.com/564x/e3/ce/e0/e3cee0d291de37bb773eba0958c9a165.jpg"
     },
     {
-        "name": "Makeup 2",
-        "slug": "makeup-2",
-        "category": "labios",
+        "name": "Makeup 11",
+        "slug": "makeup-11",
+        "category": "Labios",
         "description": "Descripcion Gato 2",
         "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
     },
     {
-        "name": "Makeup 3",
-        "slug": "makeup-3",
-        "category": "rostro",
+        "name": "Makeup 12",
+        "slug": "makeup-12",
+        "category": "Rostro",
         "description": "Descripcion Gato 3",
         "picture": "https://i.pinimg.com/564x/47/b2/9f/47b29fa15444bed648f63562c61606f2.jpg"
     }

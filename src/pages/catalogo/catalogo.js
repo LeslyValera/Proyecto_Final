@@ -26,17 +26,17 @@ const Catalogo = () => {
 
     const filterData = () => {
         setTogglefilter(!toggleFilter);
-
+    
         if (!filtroCategoria && !filtroTamano) {
             return setFilteredData(Data);
         }
-
+    
         if (filtroCategoria && filtroTamano) {
             const filteredData = Data.filter(it => it.category === filtroCategoria && it.tamano === filtroTamano);
             setFilteredData(filteredData);
             return;
         }
-
+    
         if (!filtroTamano) {
             const filteredData = Data.filter(it => it.category === filtroCategoria);
             setFilteredData(filteredData);
